@@ -7,7 +7,7 @@
     "dev": "vite",
     "start": "vite start",
     "build": "vite build",
-    "test": "vite test",
+    "test": "vitest",
     "eject": "vite eject",
     "lint": "eslint .",
     "preview": "vite preview"
