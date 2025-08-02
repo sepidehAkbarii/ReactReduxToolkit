@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start" : "vite start",
     "build": "vite build",
+    "test" :"vite test",
+    "eject" :"vite eject",
     "lint": "eslint .",
     "preview": "vite preview"
   },
