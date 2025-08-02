@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux"
-import "../app.css"
+import "../App.css"
 import { useEffect } from "react"
 import { fetchProducts } from "../Redux/ProductSlice"
 import CartSlice from "../Redux/CartSlice"
