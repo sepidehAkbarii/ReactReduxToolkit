@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import Cart from './pages/cart'
+import Cart from './pages/Cart'
 
 function App() {
  
