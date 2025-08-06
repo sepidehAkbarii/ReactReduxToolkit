@@ -1,12 +1,73 @@
-# React + Vite
+sahar a, 13 min
+# 🛍️ React Shopping App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern shopping web application built with **React**, **Redux Toolkit**, and **Vite**. This project demonstrates a simple e-commerce UI with state management using Redux Toolkit and fast development powered by Vite.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧾 Product listing and details
+🛒 Add to cart and cart management
+💾 State management with Redux Toolkit
+⚡ Fast refresh and build with Vite
+✅ ESLint integration for code quality
+📁 Component-based architecture
+📦 Dockerized setup for easy deployment
+🔁 CI/CD pipeline using GitHub Actions
+📦 Prebuilt Docker image file (.tar) available
 
-## Expanding the ESLint configuration
+## 📦 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[React](https://reactjs.org/)
+[Redux Toolkit](https://redux-toolkit.js.org/)
+[Vite](https://vitejs.dev/)
+[React Router](https://reactrouter.com/) (if used)
+[Docker](https://www.docker.com/)
+[JavaScript] (or TypeScript if used)
+
+## 🐳 Docker Support
+
+This app is fully containerized. You can run it with:
+
+
+docker build -t ReactReduxToolkit .
+
+docker run -p 3000:80 ReactReduxToolkit
+
+Option 2: Use prebuilt Docker image (.tar)
+If you have the Docker image exported as a .tar file (e.g., ReactReduxToolkit.tar), you can load and run it:
+
+docker load -i ReactReduxToolkit.tar
+
+docker run -p 3000:80 ReactReduxToolkit
+
+
+
+## 🔁 CI/CD Pipeline
+This project includes a GitHub Actions workflow that:
+
+Installs dependencies
+
+Runs tests and linters
+
+Builds the app
+
+Can be extended to deploy to cloud platforms
+
+Workflow file: .github/workflows/ci.yml
+
+
+
+## 🛠️ Getting Started
+
+### 1. Clone the repo
+
+
+git clone https://github.com/sepidehAkbarii/ReactReduxToolkit.git
+cd ReactReduxToolkit
+
+
+### 2. Install dependencies
+npm install
+
+### 3. Run the app
+npm run dev
