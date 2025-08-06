@@ -1,4 +1,4 @@
-sahar a, 13 min
+
 # 🛍️ React Shopping App
 
 A modern shopping web application built with **React**, **Redux Toolkit**, and **Vite**. This project demonstrates a simple e-commerce UI with state management using Redux Toolkit and fast development powered by Vite.
@@ -9,7 +9,6 @@ A modern shopping web application built with **React**, **Redux Toolkit**, and *
 🛒 Add to cart and cart management
 💾 State management with Redux Toolkit
 ⚡ Fast refresh and build with Vite
-✅ ESLint integration for code quality
 📁 Component-based architecture
 📦 Dockerized setup for easy deployment
 🔁 CI/CD pipeline using GitHub Actions
@@ -71,3 +70,15 @@ npm install
 
 ### 3. Run the app
 npm run dev
+
+### 4. Build for production
+npm run build
+
+📌 Notes
+This project is created with Vite for super-fast builds 
+
+State is managed globally using Redux Toolkit.
+
+You can extend this project with features like user authentication, backend integration, filtering/sorting, and more.
+
+Made with ❤️ by [sepideh]
